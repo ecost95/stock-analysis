@@ -9,12 +9,15 @@ The purpose of this project is to create a refactored VBA script in order to ana
 
 - The VBA refactored script ran very fast on our 2017 and 2018 worksheets. The 2017 summary generated at 0.44 seconds and the 2018 summary generated at 0.49 seconds. 
 
-![Refactored 2017](https://raw.githubusercontent.com/ecost95/stock-analysis/blob/main/VBA_Challenge_2017.PNG)
-![Refactored 2018](https://raw.githubusercontent.com/ecost95/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
+![Refactored 2017](https://raw.githubusercontent.com/ecost95/stock-analysis/main/VBA_Challenge_2017.PNG)
+
+
+![Refactored 2018](https://raw.githubusercontent.com/ecost95/stock-analysis/main/VBA_Challenge_2018.PNG)
 
 - If you examine the original script in the "greenstocks (1).xlsm" file, the 2017 script ran at 0.55 seconds. This means our refactored code slightly improved upon our original.
 
-![Original 2017](https://raw.githubusercontent.com/ecost95/stock-analysis/blob/main/2017Original.png)
+![Original 2017](https://raw.githubusercontent.com/ecost95/stock-analysis/main/2017Original.png)
+
 
 - In our refacored code, we had two seperate for loops - one that initialzed ticker volume to 0, and one that increased the ticker volume and set the starting/ending prices. 
 
